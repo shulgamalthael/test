@@ -1,0 +1,47 @@
+body{
+	background-color: #B6B6B6;
+}
+
+.center{
+	text-align: center;
+}
+
+.text{
+	text-align: center;
+}
+
+a{
+	color : black;
+}
+
+a:hover{
+	color:green;
+	transition: 0.8s ease;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	font-family: Spirax;
+}
+
+.menu li{
+	float:left;
+	display: block;
+	width: 100px;
+	border: 1px solid #000;
+	background: #171717;
+	color: white;
+		text-align: center;
+}
+
+.menu li:hover{
+	background-color: #A61717;
+	transition: 0.5s ease;
+	color:#000000;
+}
+
+.menu a{
+	display: block;
+	height:50px;
+}
